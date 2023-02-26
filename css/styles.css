@@ -1,0 +1,407 @@
+/* COMBINING SELECTORS  */
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* NAVBAR */
+
+nav {
+    padding: 0 7%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+    width: 140px;
+    margin-right: 19%;
+}
+
+.brand-img img {
+    width: 100%;
+}
+
+.nav-item a:hover {
+    color: #00baf2 !important;
+}
+
+.list {
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sign-in a {
+    background-color: rgba(15,74,138,0.9);
+    transition: all 0.3s ease-in;
+}
+
+.sign-in a:hover {
+    transform: scale(1.01);
+    background-color: #00baf2;
+}
+
+/* HEADER */
+.header {
+    background-color: #f6f6f6;
+    padding: 15px;
+    text-align: center;
+}
+
+/* SECTION TWO */
+
+#hero {
+    margin: 0 13%;
+    padding: 5% 0 3%;
+}
+
+.app, .right-holder{
+    margin: 5% 0;
+}
+.app-details {
+    width: 65%;
+}
+
+.img-holder img {
+    width: 13%;
+    margin-bottom: 8%;
+}
+
+.right-holder img {
+    height: 70%;
+    width:80%;
+    margin-left: 55%;
+}
+
+.app-details h1, .content h1,.content1 h1, .section-four h2, .info h1, .section-five h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+.app-details h5, .content h5, .content1 h5, .info h5{
+    text-align: justify;
+}
+
+/* BUTTON */
+.app-details a, .content a{
+    margin-top: 10%;
+    border-radius: 100px;
+    padding: 13px;
+    transition: transform all 0.3s ease-in;
+}
+
+.app-details a:hover, .content a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.01);
+}
+.app-details i, .content i, .content1 i{
+    margin-left: 10px;
+}
+
+/* SECTION END */
+
+
+/* SECTION THIRD */
+
+/* LIGHT BLUE */
+.light-blue {
+    background-color: rgb(0,186,242);
+    padding:  3% 13%;
+    color: white;
+}
+
+.light-blue h2, .dark-blue h2{
+    margin-bottom: 4%;
+    font-weight: 900;
+}
+
+.list1 {
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.list1:hover {
+    transform: scale(1.03);
+}
+
+.list-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list1 img{
+    height: 64px;
+    margin-bottom: 7%;
+}
+
+.list1 .bottom{
+    width: 70%;
+    margin: auto;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* DARK BLUE */
+
+.dark-blue {
+    background-color: #0f4a8a;
+    padding:  3% 13%;
+    color: white;
+}
+
+
+/* SECTION FOUR */
+.section-four{
+    background-color: #f5f7fa;
+    padding:  6% 13% 5%;
+}
+
+.holder {
+    padding: 5%;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 4%;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 5%;
+}
+
+.img-container {
+    display: flex;
+}
+
+.left img, .first-one img {
+    height: 80px;
+}
+
+.left .content, .left .content1, .info, .finance-div .content1 {
+    margin-top: 5%;
+}
+
+.img-container p {
+    margin: auto auto auto 4%;
+    font-size: 18px;
+}
+
+.right img {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
+/* 3RD ONE BUTTON */
+.content1 .learn {
+    margin-top: 10%;
+    border-radius: 100px;
+    padding: 13px;
+    transition: transform all 0.3s ease-in;
+    background-color: #0f4a8a;
+}
+
+.content1 .learn:hover {
+    background-color: #00baf2;
+    border-color: #00baf2;
+    transform: scale(1.01);
+}
+
+/* 4TH ONE */
+.two-cards {
+    display: flex;
+    background-color: #f5f7fa;
+    margin-top: 4%;
+}
+
+.first-card {
+    background-color: #ffffff;
+    padding: 4% 5% 0;
+    width: 50%;
+    margin-right: 4%;
+}
+
+.second-one img {
+    height: 90%;
+    width: 100%;
+    margin: 5% auto 0;
+}
+
+.second-card {
+    background-color: #ffffff;
+    padding: 4% 5% 0;
+    width: 50%;
+}
+
+.first-one1 img {
+    width: 40%;
+    margin-top: 10%;
+}
+
+
+/* SECTION FIVE */
+.section-five, .section-seven{
+    padding: 5% 13% 0;
+}
+
+.finance-div {
+    display: flex;
+    margin: 5% 0 3%;
+}
+
+.same1, .same2 {
+    width: 50%;
+}
+
+.same2 img {
+    height: 80%;
+    width: 68%;
+    display: block;
+    margin: auto;
+}
+
+/* SECTION SIX */
+.section-six {
+    background-image: url(https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.whole {
+    padding: 5% 13%;
+}
+
+.same1 .custom-img, .same-img-container img {
+    height: 60px;
+}
+
+.section-eight {
+    background-color: #f5f7fa;
+}
+
+/* SECTION NINE */
+.section-nine {
+    padding:  6% 13% 0;
+    margin-bottom: 5%;
+}
+
+.holder2 {
+    padding: 3% 5% 0;
+    background-color: #f5f7fa;
+    display: flex;
+    margin-top: 4%;
+}
+
+/* SECTION 10 */
+.section-ten {
+    padding: 3% 13%;
+}
+.section-ten h2 {
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+.custom-card {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5%;
+}
+
+.custom-card:hover {
+    background-color: #00baf2;
+    transform: scale(1.01);
+
+}
+
+.card-body img {
+    height: 90%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.card-body h3 {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 4% 0;
+}
+
+.card-body a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.footer {
+    padding: 5% 13% 3%;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+.footer i {
+    margin: 3%;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer i:hover {
+    color: #0f4a8a;
+    transform: translateY(-5px);
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+    .app-details {
+        width: 69%;
+    }
+    .right-holder img {
+        margin-left: 37%;
+        margin-top: 5%;
+    }
+    .app-details h1, .content h1, .section-four h2, .content1 h1, .first-one h1, .first-one1 h1, .section-five h2, .section-ten h2 {
+        font-size: 30px;
+    }
+    .app-details h5, .content h5, .content1 h5, .first-one h5, .first-one1 h5 {
+        text-align: justify;
+    }
+    .light-blue h2, .section-five h2, .finance-div .same1{
+        margin-top: 8%;
+        margin-bottom: 5%
+    }
+    .finance-div .same2 {
+        margin: 10% 0;
+    }
+    .list-holder, .two-cards, .holder, .finance-div, .holder2{
+        display: block;
+    } 
+    .list1 .bottom {
+        margin-bottom: 10%;
+        width: 50%;
+    }
+    .left, .right, .first-card, .second-card, .same1, .same2 {
+        width: 100%;
+    }
+    .right img {
+        margin-top: 5%;
+    }
+    .first-card,.second-card {
+        margin-bottom: 4%;
+    }
+    .section-ten h2 {
+        width: 90%;
+    }
+}
